@@ -10,7 +10,7 @@ echo "     -------------------------"
 echo ""
 echo "vamo a buscar tu archivo"
 echo ""
-echo "por favor, ingresa la ruta del directorio en donde se encuentra tu carpeta"
+echo "por favor, ingresa la ruta absoluta del directorio en donde se encuentra tu carpeta"
 read  rutaCarpeta
 echo ""
 echo "por favor, ingresa el nombre del archivo que quieres encontrar, recuerda especificar el tipo de archivo"
@@ -25,4 +25,3 @@ else
 	echo "nooo puede ser su archivo $nombreArchivo no se ha encontrado en $rutaCarpeta, que triste tu caso"
 
 fi
-
