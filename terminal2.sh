@@ -6,13 +6,10 @@ current_directory=$(pwd)
 minibin_directory="${current_directory}/minibin"
 export PATH=$PATH:$minibin_directory
 
-
-
-
 usuario=$USER
-directorio_actual=${PWD##*/}
 
 while true; do
+    directorio_actual=${PWD##*/}  # Actualiza el directorio actual en cada iteración
     read -p "$usuario@$directorio_actual@MiTerminal:~$ " comando
 
     # Verificar si se ingresó "salir" para salir del script
