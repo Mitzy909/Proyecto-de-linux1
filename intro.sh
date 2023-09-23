@@ -1,8 +1,8 @@
-!/bin/bash
+#!/bin/bash
 
 pistolaarriba="\n\n                                         |\n                                         |\n                                         |\n                               >
 
-bala=">>>>"
+bala="--->"
 
 espacios="                +0*1*0+"
 
